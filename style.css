@@ -123,7 +123,7 @@ ul {
   color: #333;
   text-decoration: none;
   margin-right: 15px;
-  padding: 10px 5px;
+  padding: 15px 5px;
 }
 
 .bot li a {
@@ -613,4 +613,10 @@ h3, .info-para {
   border: 2px;
   background-color: #E1E1E1;
   color: #444;
+}
+
+.footer-middle-icons div i {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
 }
