@@ -16,7 +16,7 @@ ul {
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .fa-globe {
@@ -83,8 +83,9 @@ ul {
   border-bottom: 1px solid rgb(36, 33, 33);
 }
 
-.header-input form:hover, .header-input form input {
+.header-input form:focus-within, .header-input form input {
   width: 450px;
+  outline: none;
 }
 
 .header-input form {
